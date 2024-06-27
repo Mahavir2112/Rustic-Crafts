@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #656363;
+    border-radius: 5pxrgb(171, 169, 169);
+    background-color: #fafaf9;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #727171;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .payment-details,
+ {
+    flex: 1 0 48%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  
+  button {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+
+  .payment-details input {
+    margin-bottom: 1rem; /* Add some vertical space */
+    margin-right: 1.5rem; /* Add some horizontal space if needed */
+  }
+  .payment-details input {
+    padding: 0.5rem 1rem; /* Adjust padding based on design preference */
+  }
+  .payment-details {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+  }
+  
+  .payment-details input {
+    margin: 0.5rem 1rem; /* Adjust margins as needed */
+    flex-grow: 1; /* Make inputs fill available space */
+  }
+
+  ..payment-details {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.payment-details input {
+  margin: 0.5rem 1rem; /* Adjust margins as needed */
+  flex-grow: 1; /* Make inputs fill available space */
+}
+
+.payment-details input {
+  margin-bottom: 1rem; /* Add some vertical space */
+  margin-right: 1.5rem; /* Add some horizontal space if needed */
+}
+.payment-details input {
+  padding: 0.5rem 1rem; /* Adjust padding based on design preference */
+}
+.payment-details {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.billing-address input {
+  margin: 0.5rem 1rem; /* Adjust margins as needed */
+  flex-grow: 1; /* Make inputs fill available space */
+}
+
+.billing-address {
+display: flex;
+flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.billing-address input {
+margin: 0.5rem 1rem; /* Adjust margins as needed */
+flex-grow: 1; /* Make inputs fill available space */
+}
+  
